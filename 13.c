@@ -9,7 +9,7 @@ void main()
         if(n%i==0)
         {
             printf("no");
-            break;
+           break;
         }
     }
     if(i==n)
