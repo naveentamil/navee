@@ -3,9 +3,9 @@
  
 void main()
 {
-   int no, sums = 0, c, array[100];
+   int a, sums = 0, c, array[100];
  
-   scanf("%d", &no);
+   scanf("%d", &a);
  
    for (c = 0; c < no; c++)
    {
@@ -15,5 +15,5 @@ void main()
  
    printf(\n"Sum = %d",sums);
  
-   return 0;
+   getch();
 }
