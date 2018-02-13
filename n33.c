@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 void main()
 {
     char a[20];
-    int i,count=0,c;
+    int i,j=0,c;
     printf("enter any string");
     gets(a);
     c=strlen(a);
@@ -12,8 +11,8 @@ void main()
     {
     if(a[i]==' ')
     {
-        count=count+1;
+        j=j+1;
     }
     }
-    printf("the total no of space is %d",count);
+    printf("the total no of space is %d",j);
 }
