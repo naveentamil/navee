@@ -3,8 +3,8 @@
 void main()
 {
 	int i,temp;
-	
 	int b[10];
+	clrscr();
 	for(i=0;i<10;i++)
 	{
 		scanf("%d",&b[i]);
